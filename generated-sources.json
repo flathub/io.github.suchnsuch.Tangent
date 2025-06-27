@@ -4159,6 +4159,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.npmjs.org/html-tag-names/-/html-tag-names-2.1.0.tgz",
+        "sha512": "f8d84150dbd2e4883c83c2ced43069c9aa6e1acbbe14b7292f098c0030a7b6f53d2146b7d3ef965771a6b811d99bc63d707748b289ffbaf6d0ffa8d52fadd767",
+        "dest-filename": "4150dbd2e4883c83c2ced43069c9aa6e1acbbe14b7292f098c0030a7b6f53d2146b7d3ef965771a6b811d99bc63d707748b289ffbaf6d0ffa8d52fadd767",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/f8/d8"
+    },
+    {
+        "type": "file",
         "url": "https://registry.npmjs.org/htmlparser2/-/htmlparser2-8.0.2.tgz",
         "sha512": "19876358a0e46d12e467981eb87b39358d69b89f8f5f03fbf9f1cf473d3a122aec6fdba07fa77c9245dabfa00385c38384514f3085f2c64c52b8c7f70fa34214",
         "dest-filename": "6358a0e46d12e467981eb87b39358d69b89f8f5f03fbf9f1cf473d3a122aec6fdba07fa77c9245dabfa00385c38384514f3085f2c64c52b8c7f70fa34214",
@@ -6994,6 +7001,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.npmjs.org/svg-tag-names/-/svg-tag-names-3.0.1.tgz",
+        "sha512": "4791034b8e114123b0c0a20e39464b29982031e14bf1f0d2499af58552b96742a4cae1953997f27a90590e43eefdaa0bfa148ecacc71bc093cb8de323762ce31",
+        "dest-filename": "034b8e114123b0c0a20e39464b29982031e14bf1f0d2499af58552b96742a4cae1953997f27a90590e43eefdaa0bfa148ecacc71bc093cb8de323762ce31",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/47/91"
+    },
+    {
+        "type": "file",
         "url": "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz",
         "sha512": "f50364e4ac0317e06fcfe3f239b9264988c8e64b15518b635bb014db6af634a71f2c9717a7dea1903594dfe5e774eb146fe010f5085fcdf093d8ef823564f94f",
         "dest-filename": "64e4ac0317e06fcfe3f239b9264988c8e64b15518b635bb014db6af634a71f2c9717a7dea1903594dfe5e774eb146fe010f5085fcdf093d8ef823564f94f",
@@ -9316,6 +9330,12 @@
         "contents": "3caeb6fc769783481bc1fc009486114f50b4df60\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/err-code/-/err-code-2.0.3.tgz\", \"integrity\": \"sha512-2bmlRpNKBxT/CRmPOlyISQpNj+qSeYvcym/uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor/N5yhvp/ZiG1oE3DEYMSFA==\", \"time\": 0, \"size\": 3433, \"metadata\": {\"url\": \"https://registry.npmjs.org/err-code/-/err-code-2.0.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "62dce9a2b6aa41a8097ad49b67b6a27e8bb8ed3eb0d2c8390c5e47f81e55",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/e4/a4"
+    },
+    {
+        "type": "inline",
+        "contents": "3cb4e2adc264eebb9f4244954189ceff83c8c2eb\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/html-tag-names/-/html-tag-names-2.1.0.tgz\", \"integrity\": \"sha512-+NhBUNvS5Ig8g8LO1DBpyapuGsu+FLcpLwmMADCntvU9IUa30++WV3GmuBHZm8Y9cHdIson/uvbQ/6jVL63XZw==\", \"time\": 0, \"size\": 3578, \"metadata\": {\"url\": \"https://registry.npmjs.org/html-tag-names/-/html-tag-names-2.1.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "5f285eb3f4b908c6a7e57205f4f5d9bf8e04260d35e8038821fc4bc3acec",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/12/78"
     },
     {
         "type": "inline",
@@ -12772,6 +12792,12 @@
         "contents": "be96ea90d8a9e63d8352eaa5d35c88f24c9bccf9\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/jest-pnp-resolver/-/jest-pnp-resolver-1.2.3.tgz\", \"integrity\": \"sha512-+3NpwQEnRoIBtx4fyhblQDPgJI0H1IEIkX7ShLUjPGA7TtUTvI1oiKi3SR4oBR0hQhQR80l4WAe5RrXBwWMA8w==\", \"time\": 0, \"size\": 2729, \"metadata\": {\"url\": \"https://registry.npmjs.org/jest-pnp-resolver/-/jest-pnp-resolver-1.2.3.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "892a8f3e7c37c53c6eb6157435f68baa49ee16648a0fc083f5ac00a2bb70",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/51/3c"
+    },
+    {
+        "type": "inline",
+        "contents": "bf13901d293feae24a07fed58d57158591852866\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/svg-tag-names/-/svg-tag-names-3.0.1.tgz\", \"integrity\": \"sha512-R5EDS44RQSOwwKIOOUZLKZggMeFL8fDSSZr1hVK5Z0KkyuGVOZfyepBZDkPu/aoL+hSOysxxvAk8uN4yN2LOMQ==\", \"time\": 0, \"size\": 3548, \"metadata\": {\"url\": \"https://registry.npmjs.org/svg-tag-names/-/svg-tag-names-3.0.1.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "2d3b049fd6233e72353f4bde6b43a4891b3a96e40fd5166663d4a845ef96",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/3a/28"
     },
     {
         "type": "inline",
