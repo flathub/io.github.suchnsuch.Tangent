@@ -1,11 +1,11 @@
 id: io.github.suchnsuch.Tangent
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: '25.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node22
+  - org.freedesktop.Sdk.Extension.node24
 # Electron doesn't use a traditional locale format
 separate-locales: false
 writable-sdk: true
@@ -15,7 +15,6 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --share=network
-  - --filesystem=home
 
 modules:
   - name: tangent
