@@ -1,11 +1,11 @@
 id: io.github.suchnsuch.Tangent
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: '25.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node22
+  - org.freedesktop.Sdk.Extension.node24
 # Electron doesn't use a traditional locale format
 separate-locales: false
 writable-sdk: true
@@ -15,23 +15,22 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --share=network
-  - --filesystem=home
 
 modules:
   - name: tangent
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node22/bin
+      append-path: /usr/lib/sdk/node24/bin
       env:
         NPM_CONFIG_LOGLEVEL: info
         XDG_CACHE_HOME: /run/build/tangent/flatpak-node/cache
         npm_config_cache: /run/build/tangent/flatpak-node/npm-cache
-        npm_config_nodedir: /usr/lib/sdk/node22
+        npm_config_nodedir: /usr/lib/sdk/node24
         npm_config_offline: 'true'
     sources:
       - type: git
         url: https://github.com/suchnsuch/Tangent
-        tag: tangent-v0.10.0
+        tag: tangent-v0.11.0-alpha.2
       - type: script
         dest-filename: run.sh
         commands:
