@@ -5,7 +5,7 @@ sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '25.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node24
+  - org.freedesktop.Sdk.Extension.node25
 # Electron doesn't use a traditional locale format
 separate-locales: false
 writable-sdk: true
@@ -20,12 +20,12 @@ modules:
   - name: tangent
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node24/bin
+      append-path: /usr/lib/sdk/node25/bin
       env:
         NPM_CONFIG_LOGLEVEL: info
         XDG_CACHE_HOME: /run/build/tangent/flatpak-node/cache
         npm_config_cache: /run/build/tangent/flatpak-node/npm-cache
-        npm_config_nodedir: /usr/lib/sdk/node24
+        npm_config_nodedir: /usr/lib/sdk/node25
         npm_config_offline: 'true'
     sources:
       - type: git
