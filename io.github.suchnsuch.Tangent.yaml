@@ -32,7 +32,7 @@ modules:
       - type: git
         url: https://github.com/suchnsuch/Tangent
         tag: tangent-v0.12.5
-        commit: 66b01026945133ae18b4ae046598341ea9e47d51
+        commit: 3a4757fca1ac2652786e6be4a6c88844fd7c6196
       - type: script
         dest-filename: run.sh
         commands:
