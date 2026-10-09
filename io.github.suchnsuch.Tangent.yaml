@@ -43,7 +43,7 @@ modules:
       - npm run build
       - |
         . flatpak-node/electron-builder-arch-args.sh
-        npm run --workspace apps/tangent-electron package:linux -- $ELECTRON_BUILDER_ARCH_ARGS --dir
+        npm run --workspace apps/tangent-electron package:linux -- $ELECTRON_BUILDER_ARCH_ARGS -c.electronDist=$PWD/flatpak-node/cache/electron --dir
       # install
       - |
         if [ "$(uname -m)" = "aarch64" ]; then
