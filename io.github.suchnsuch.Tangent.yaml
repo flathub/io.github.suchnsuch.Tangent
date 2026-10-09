@@ -26,7 +26,7 @@ modules:
         NPM_CONFIG_LOGLEVEL: info
         XDG_CACHE_HOME: /run/build/tangent/flatpak-node/cache
         npm_config_cache: /run/build/tangent/flatpak-node/npm-cache
-        npm_config_nodedir: /usr/lib/sdk/node26
+        npm_package_config_node_gyp_nodedir: /usr/lib/sdk/node26
         npm_config_offline: 'true'
     sources:
       - type: git
